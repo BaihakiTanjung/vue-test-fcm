@@ -24,6 +24,7 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <!-- Firebase Setup -->
+## Firebase Setup
 Firebase version 8.10.1
 
 https://blog.dot.co.id/vuejs-dengan-firebase-fcm-514df4a5ff
