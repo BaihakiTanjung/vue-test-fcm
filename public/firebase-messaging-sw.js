@@ -23,7 +23,7 @@ const messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler(function (payload) {
   const title = "test fcm";
   const options = {
-    body: payload.notification,
+    body: payload.data.body,
     icon: "https://file.sitama.co.id/storage/grosirmotor/thumbnail/grosirmotor.png",
   };
   return self.registration.showNotification(title, options);
