@@ -1,0 +1,6 @@
+{
+  "name": "Vue Test FCM",
+  "short_name": "vue-test-fcm",
+  "start_url": "/",
+  "gcm_sender_id": "255954161399"
+}
